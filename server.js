@@ -5,7 +5,7 @@ const app = require("./app");
 //Connect Database
 const DB = process.env.MONGODB_LOCAL_URL;
 mongoose
-  .connect(`mongodb+srv://ashik:<password>@cluster0.mgql5.mongodb.net/bloodDonation?retryWrites=true&w=majority`, {
+  .connect(`mongodb+srv://ashik:XiLoRsZCr8Hl4LO1@cluster0.vnktg.mongodb.net/bloodDonation?retryWrites=true&w=majority`, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
