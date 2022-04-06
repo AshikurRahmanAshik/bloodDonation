@@ -208,6 +208,7 @@ exports.updateUser = async (req, res) => {
 exports.getUsers = async (req, res) => {
   try {
     const user = await User.find({
+      bloodGroup: req.query.bloodGroup,
       location: {
         $near: {
           $geometry: {
