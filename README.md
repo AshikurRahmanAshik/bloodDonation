@@ -1,6 +1,3 @@
-FORMAT: 1A
-HOST: https://rest-api-sdl-lab.herokuapp.com/
- 
 # bloodDonation-api
  
 The main objective of this project is to find the nearest blood donor quickly using a
