@@ -47,7 +47,7 @@ But for being a donor anyone has to sign up first.
         }
 
 ##Search blood doners
-[https://api-blood-donation.herokuapp.com/api/user?lat=18&lon=90&distance=5000&bloodGroup=O%2d](https://api-blood-donation.herokuapp.com/api/user?lat=18&lon=90&distance=5000&bloodGroup=O%2d)
+[https://api-blood-donation.herokuapp.com/api/user?lat=18&lon=90&distance=5000&bloodGroup=O%2b](https://api-blood-donation.herokuapp.com/api/user?lat=18&lon=90&distance=5000&bloodGroup=O%2b)
 
 ###here ,
 - we give the input distance in Kilometer unit.
