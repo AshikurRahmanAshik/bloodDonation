@@ -20,7 +20,7 @@ But for being a donor anyone has to sign up first.
 
 + Response 200 (application/json)
  
-    
+    ```  
         {
             "name": "Ashik",
             "phone": "01723732072",
@@ -29,7 +29,7 @@ But for being a donor anyone has to sign up first.
             "password": "111111",
             "confirmPassword": "111111"
         }
- 
+    ```
 
 ##For sign in
 [https://api-blood-donation.herokuapp.com/api/user/login](https://api-blood-donation.herokuapp.com/api/user/login)
@@ -40,14 +40,15 @@ But for being a donor anyone has to sign up first.
 
 + Response 200 (application/json)
  
-    
+    ``` 
         {
             "phone": "01723732072",
             "password": "111111",
         }
+    ```
 
 ##Search blood doners
-[https://api-blood-donation.herokuapp.com/api/user?lat=18&lon=90&distance=5000&bloodGroup=O%2b](https://api-blood-donation.herokuapp.com/api/user?lat=18&lon=90&distance=5000&bloodGroup=O%2b)
+[https://api-blood-donation.herokuapp.com/api/user?lat=18&lon=90&distance=5000&bloodGroup=O%2b](https://api-blood-donation.herokuapp.com/api/user?lat=18&lon=90&distance=5000&bloodGroup=O%2d)
 
 ###here ,
 - we give the input distance in Kilometer unit.
@@ -59,7 +60,7 @@ But for being a donor anyone has to sign up first.
 
 + Response 200 (application/json)
  
-    
+    ``` 
         {
             "staus": "success",
             "user": [
@@ -78,7 +79,7 @@ But for being a donor anyone has to sign up first.
                 }
             ]
         }
-
+    ```
 
 ##Update blood donor information
 [https://api-blood-donation.herokuapp.com/api/user/update](https://api-blood-donation.herokuapp.com/api/user/update)
@@ -95,13 +96,13 @@ But for being a donor anyone has to sign up first.
 
 + Response 200 (application/json)
  
-    
+    ``` 
         {
             "name": "emon",
             "bloodGroup": "B+",
             "point":[-18, 90]
         }
-
+    ```
 
 ##To see a specific blood donor information
 [https://api-blood-donation.herokuapp.com/api/user/pass user id in here](https://api-blood-donation.herokuapp.com/api/user/pass)
@@ -111,7 +112,7 @@ But for being a donor anyone has to sign up first.
 
 + Response 200 (application/json)
  
-    
+    ```
         {
             "staus": "success",
             "user": {
@@ -130,3 +131,4 @@ But for being a donor anyone has to sign up first.
                 }
             }
         }
+    ```
